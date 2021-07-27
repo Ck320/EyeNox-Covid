@@ -1,16 +1,28 @@
-# dartproject
+# EyeNox - Covid
 
-A new Flutter project.
+O projeto é a interface visual para um aplicativo de rastreamento de aglomerações
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Especificações
 
-A few resources to get you started if this is your first Flutter project:
+- Utilizado ferramenta flutter no desenvolvimento
+- Linguagem de programação dart
+- Desenvolvido na IDE Intellj e testado para paginas web
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Guia de Uso
+#
+#### Login
+Primeiramente é necessario executar login, para teste foi inserido um usuario "mauricio" com a senha "123"
+
+#### Menu Principal
+
+Você ira se deparar com a tela principal, nela pode ser feita a busca do status de determinado CEP, sendo estes "seguro" ou "inseguro", esse status será alterado baseado na quantidade de pessoas naquele cep em um raio de 50m
+
+#### Busca  Historico
+
+Ao abrir o menu lateral (na tela do Menu Principal, deslize o dedo da esquerda para a direita ou acesse atravez do icone de 3 barras horizontais encontradas no canto superior a esquerda), você localizara uma lista das 3 funções basicas ("Search", "History" e "Exit"), selecione a segunda opção, você sera redirecionado para a pagina de busca do historico de  até 3 dias de determinado local, sendo o metodo de pesquisa igual ao menu principal, mas o resultado será o historico de status do CEP.
+
+#### Fechar o programa
+No menu lateral, selecione a função "Exit" e você será redirecionado a pagina de login
